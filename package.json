@@ -1,0 +1,29 @@
+{
+  "name": "web-scraper",
+  "version": "0.0.1",
+  "description": "Node.js version of Fundly engineering test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "web",
+    "scraper",
+    "Fundly"
+  ],
+  "author": "James Nicol",
+  "license": "BSD",
+  "dependencies": {
+    "cheerio": "~0.10.5",
+    "request": "~2.12.0",
+    "colors": "~0.6.0-1",
+    "async": "~0.1.22",
+    "ntwitter": "~0.5.0",
+    "grunt-coffee": "0.0.6",
+    "commander": "~1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.7.4"
+  }
+}

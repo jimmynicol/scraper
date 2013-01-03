@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var program = require('commander')
+    fs = require('fs');
+
+program
+  .version('0.0.1')
+  .usage('-l <Page to parse>')
+  .option('-l, --link [value]', 'Desired page to scrape for links')
+  .option('-f, --force', 'Do not use cached files')
+  .option('-v, --version', 'The current web-scraper version')
+  .parse(process.argv);
+
+require(__dirname + '/../lib').process(program);
